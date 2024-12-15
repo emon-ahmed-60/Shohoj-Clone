@@ -1,0 +1,417 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: border-box;
+  font-family: Libre Franklin;
+}
+
+.navbar {
+  height: 80px;
+  width: 100vw;
+  color: white;
+  background-color: white;
+}
+
+.navbar-brand img {
+  height: 30px;
+  width: 120px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  height: 60%;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bordered:hover {
+  border: 1px solid rgb(1, 101, 44);
+  color: rgb(1, 101, 44);
+}
+
+.border,
+.bordered {
+  border-radius: 8px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.nav-button {
+  margin-left: auto;
+  padding: 1px 10px;
+  border-radius: 30px;
+  margin-top: 5px;
+}
+
+.banner {
+  height: 40vh;
+  width: 100%;
+  background-image: url("/Shohoz-Launch-Banner.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: -999;
+}
+
+.banner-form {
+  width: 80%;
+  background-color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 10%;
+  padding: 20px 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.banner-form input {
+  padding: 5px 20px 5px 10px;
+  border-radius: 10px;
+  width: 26%;
+}
+
+.mobile-banner-form {
+  display: none;
+}
+
+.buy-steps .heading {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.buy-steps p span {
+  color: rgb(5, 117, 54);
+}
+
+.buy-steps .buy-icon {
+  color: rgb(5, 117, 54);
+}
+
+.buy-ops {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buy-msg h2,
+p {
+  text-align: left;
+  margin: 0px;
+}
+
+.shohoz-way {
+  padding: 20px 40px;
+}
+
+.way-head h4 {
+  color: rgb(255, 169, 0);
+  font-weight: 600;
+  text-align: center;
+}
+
+.way-head h3 {
+  color: rgb(7, 157, 73);
+  font-weight: 600;
+  text-align: center;
+}
+
+.way-body i {
+  background-color: white;
+  color: rgba(7, 157, 73, 1);
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 2.2rem;
+}
+
+.way-body .col-lg-4 p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.way-body .col-lg-4 p:nth-child(3) {
+  color: rgb(51, 51, 51);
+}
+
+.way-body p span {
+  color: rgb(7, 157, 73);
+}
+
+.mobile-text h2 {
+  font-weight: 600;
+  font-size: 36px;
+  color: rgb(51, 51, 51);
+}
+
+.mobile-text h2 p {
+  color: rgb(7, 157, 73);
+}
+
+.mobile-text .d-flex i {
+  font-size: 0.65rem;
+  color: rgb(7, 157, 73);
+  background-color: rgb(238, 238, 238);
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.mobile-text .d-flex {
+  width: 80%;
+  justify-content: space-between;
+}
+
+.mobile-store-imges .img-fluid {
+  width: 160px;
+  height: auto;
+}
+
+.mobile-text {
+  height: 70%;
+  margin-top: 10%;
+}
+
+.travel-ops h2:nth-child(1) {
+  font-size: 36px;
+}
+
+.travel-ops h2 span {
+  color: rgb(7, 157, 73);
+}
+
+.travel-ops p:nth-child(2) {
+  font-size: 24px;
+}
+
+.travel-ops-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.travel-ops-number p {
+  color: rgb(7, 157, 73);
+  font-weight: 600;
+  font-size: 30px;
+  padding: 10px 5px;
+}
+
+.main-foot {
+  background: linear-gradient(180deg, #318f72, #36ae89);
+  color: white;
+  padding: 20px 40px;
+}
+
+.main-foot .col-lg-7 p {
+  width: 90%;
+  font-size: 22px;
+  font-weight: 600;
+  display: inline-block;
+}
+.main-foot .col-lg-7 i {
+  float: right;
+  margin: 5px 15px auto 0px;
+}
+
+.main-foot .col-lg-5 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 10px 120px;
+}
+
+.main-foot .col-lg-5 h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 10%;
+}
+
+.main-foot .col-lg-5 p {
+  font-weight: 20px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.main-foot .col-lg-5 .btn {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bolder;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: rgba(48, 140, 111, 1);
+  padding: 30px 60px 5px;
+  border-top: 4px solid rgba(7, 157, 73, 1);
+}
+
+footer .foot-box {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+footer .col-lg-7 ul p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+footer .col-lg-7 ul li {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer .col-lg-5 p {
+  color: rgb(232, 232, 232);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.foot-end .col-lg-5 span {
+  color: rgb(232, 232, 232);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.foot-end .col-lg-7 {
+  color: white;
+  display: flex;
+  justify-content: end;
+}
+
+.foot-end .col-lg-7 i {
+  font-size: 1.4rem;
+  margin: 0px 5px;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-nav {
+    height: 90vh;
+    width: 20vw;
+    background-color: white;
+    float: right;
+  }
+
+  .nav-item {
+    height: 40px;
+    width: 100px;
+  }
+
+  .banner-form {
+    display: none;
+  }
+
+  .mobile-banner-form {
+    display: block;
+    padding: 5px 20px;
+  }
+
+  .buy-ops {
+    display: flex;
+  }
+
+  .buy-msg {
+    width: 70%;
+  }
+
+  .shohoj-mobile-app .mobile-text {
+    margin-top: 0%;
+    padding: 0% 0% 0% 5%;
+  }
+
+  .shohoj-mobile-app .row .col-lg-5 .img-fluid {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .mobile-store-imges .img-fluid {
+    width: 120px;
+  }
+
+  .shohoj-travel-ops .row .col-lg-5 .img-fluid {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .main-foot .col-lg-5 {
+    padding: 0px 20px 15px 0px;
+  }
+
+  .main-foot .col-lg-5 h2 {
+    margin-top: 0px;
+  }
+
+  footer .ps-lg-5 {
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .navbar-nav {
+    width: 40vw;
+  }
+
+  footer {
+    padding: 30px 10px 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .travel-ops h2:nth-child(1) {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .travel-ops-number {
+    flex-wrap: wrap;
+  }
+
+  .main-foot .col-lg-7 p {
+    font-size: 14px;
+  }
+
+  footer .foot-box {
+    flex-direction: column;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}

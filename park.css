@@ -1,0 +1,382 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: border-box;
+  font-family: Libre Franklin;
+}
+
+.navbar {
+  height: 80px;
+  width: 100vw;
+  background-color: white;
+}
+
+.navbar-brand .img-fluid {
+  width: 120px;
+  height: auto;
+}
+
+.navbar-nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.nav-item {
+  width: 10%;
+  height: 60%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: black;
+}
+
+.nav-button {
+  border-radius: 30px;
+  color: white;
+  margin-left: auto;
+}
+
+.bordered:hover {
+  color: rgb(1, 107, 44);
+  border: 1px solid rgb(1, 107, 44);
+}
+
+.bordered,
+.border {
+  border-radius: 10px;
+}
+
+.navbar p {
+  margin: 0;
+}
+
+.banner {
+  height: 40vh;
+  width: 100%;
+  background-image: url("/Shohoz-Park-Banner-480x250.635a5a94d90797c9209b.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.banner-content {
+  width: 80%;
+  height: 40%;
+  background-color: white;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 10px;
+  left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.banner-content .form-group .form-control-inline {
+  padding: 15px 180px 15px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.banner-content .btn {
+  width: 15%;
+  height: 60%;
+}
+
+.mobile-banner-content {
+  display: none;
+}
+
+#card-section h5,
+.tickets h4 {
+  color: rgb(255, 169, 0);
+  font-weight: 600;
+  text-align: center;
+  font-size: 24px;
+}
+
+#card-section h4,
+.tickets h3 {
+  color: rgb(7, 157, 73);
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+}
+
+#card-section {
+  padding: 30px 40px;
+}
+
+.card-body ul li:nth-child(1) {
+  list-style-type: none;
+  margin-right: 40px;
+}
+
+.card-body {
+  height: 20px;
+}
+
+.card {
+  height: 100%;
+  margin: 20px 0px;
+  border-radius: 20px;
+}
+
+.card .img-top {
+  width: 100%;
+  height: 60%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+}
+
+.card-body ul {
+  display: flex;
+  align-items: center;
+  justify-content: first baseline;
+  padding-left: 0px;
+}
+
+.card-body ul li,
+.card-body span {
+  color: rgb(116, 116, 116);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.tickets {
+  background-color: #f6f9f9;
+  padding: 30px 40px;
+}
+
+.tickets i {
+  font-size: 2.6rem;
+  color: rgb(7, 157, 73);
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.tickets h2 {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+.tickets h2 span,
+.shohoj-mobile-ops h2 span,
+.travel-ops h2 span,
+.buy h2 span {
+  color: rgb(7, 157, 73);
+}
+
+.shohoj-mobile-ops,
+.travel-ops {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  justify-content: center;
+  padding: 30px 40px;
+}
+
+.number {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgb(7, 157, 73);
+  font-size: 2rem;
+}
+
+.number-foot {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main-foot {
+  background: linear-gradient(180deg, #318f72, #36ae89);
+  color: white;
+  padding: 30px 40px;
+}
+
+.main-foot-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(114, 188, 164, 1);
+  margin-bottom: 20px;
+}
+
+.main-foot .col-lg-5 h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.main-foot .col-lg-5 p {
+  font-size: 18px;
+}
+
+.main-foot .col-lg-5 .btn {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-weight: 700;
+}
+
+footer {
+  background-color: rgba(48, 140, 111, 1);
+  color: white;
+  padding: 30px 40px;
+}
+
+footer .col-lg-5 p {
+  font-size: 18px;
+  color: rgb(232, 232, 232);
+  padding: 20px 0px;
+}
+
+.footer-list {
+  display: flex;
+  align-items: first baseline;
+  justify-content: space-evenly;
+}
+
+.footer-list ul p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-list ul li {
+  list-style-type: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.footer-icon {
+  margin-left: 80%;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1222px) {
+  .banner-content {
+    display: none;
+  }
+
+  .mobile-banner-content {
+    display: block;
+    width: 80%;
+    background-color: white;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    border-radius: 8px;
+  }
+}
+
+.buy-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.buy-icon i {
+  font-size: 2.6rem;
+  color: rgb(7, 157, 73);
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 4px 15px auto 0px;
+}
+
+.buy-icon {
+  display: flex;
+  align-items: first baseline;
+  justify-content: first baseline;
+}
+
+.mobile-ops-icon div {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-nav {
+    height: 80vh;
+    width: 40vw;
+    float: right;
+  }
+
+  .navbar-collapse {
+    z-index: 999;
+  }
+
+  .nav-item {
+    height: 40px;
+    width: 100px;
+    margin: auto;
+  }
+
+  .nav-button {
+    margin: auto;
+  }
+
+  .mobile-imges .img-fluid {
+    width: 120px;
+    height: auto;
+  }
+
+  .shohoj-mobile .col-lg-5 img,
+  .shohoj-travel .col-lg-5 img {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+  }
+
+  .mobile-ops-icon div {
+    display: block;
+  }
+
+  .number {
+    font-size: 1.2rem;
+  }
+
+  .number-foot {
+    font-size: 0.85rem;
+  }
+
+  .footer-list {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 374px) {
+  .card-body ul {
+    margin-bottom: 8px;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}

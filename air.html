@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="/air.css" />
+    <title>Shohoj Air</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container p-0">
+          <a class="navbar-brand me-lg-auto ms-sm-4" href="/index.html">
+            <img src="/shohoz_logo_new.png" alt="nav-logo" />
+          </a>
+          <button
+            class="navbar-toggler me-sm-4"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+          >
+            <span> <i class="fa-solid fa-bars"></i> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav me-lg-auto mb-2 mb-lg-0 ms-lg-2">
+              <a class="nav-item mx--lg-2 bordered" href="/index.html">
+                <i class="fa-solid fa-bus-simple"></i>
+                <p>Bus</p>
+              </a>
+
+              <a href="air.html" class="nav-item mx-lg-2 border border-success">
+                <i class="fa-solid fa-plane-up"></i>
+                <p>Air</p>
+              </a>
+
+              <a href="train.html" class="nav-item mx-lg-2 bordered">
+                <i class="fa-solid fa-train-tram"></i>
+                <p>Train</p>
+              </a>
+
+              <a href="/launch.html" class="nav-item mx-lg-3 bordered">
+                <i class="fa-solid fa-ship"></i>
+                <p>Launch</p>
+              </a>
+              <a class="nav-item mx-lg-2 bordered" href="/Event.html">
+                <i class="fa-regular fa-calendar-days"></i>
+                <p>Event</p>
+              </a>
+
+              <a class="nav-item mx-lg-2 bordered" href="park.html">
+                <i class="fa-solid fa-viruses"></i>
+                <p>Park</p>
+              </a>
+              <div class="nav-button bg-warning mx-sm-auto mb-sm-3">
+                <button class="btn d-flex text-white p-2">
+                  <i
+                    class="fa-solid fa-phone mt-lg-1 me-lg-2 mt-sm-1 text-white"
+                  ></i>
+                  16374
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="hero-section-med">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <button
+              class="nav-link active"
+              data-bs-toggle="tab"
+              data-bs-target="#home"
+            >
+              one way
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              class="nav-link"
+              data-bs-toggle="tab"
+              data-bs-target="#round-trip"
+            >
+              round trip
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              class="nav-link"
+              data-bs-toggle="tab"
+              data-bs-target="#multi-city"
+            >
+              multi city
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content mt-3">
+          <div class="tab-pane fade show active" id="home">
+            <form>
+              <div class="tab-div font-weight-bold" id="tab-div">
+                <input
+                  type="text"
+                  placeholder="from"
+                  class="form-control py-3 px-4"
+                />
+                <i class="fa-solid fa-right-left my-auto"></i>
+                <input
+                  type="text"
+                  placeholder="to"
+                  class="form-control py-3 px-4"
+                />
+              </div>
+              <div class="tab-div">
+                <input
+                  type="text"
+                  placeholder="01 novembar 2024"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="10 november 2024"
+                  class="form-control"
+                />
+              </div>
+
+              <div class="tab-div">
+                <input
+                  type="text"
+                  placeholder="01 travelers"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="10 travelers"
+                  class="form-control"
+                />
+              </div>
+              <button class="form-control bg-success text-white py-2">
+                search
+              </button>
+            </form>
+          </div>
+
+          <div class="tab-pane fade" id="round-trip">
+            <form>
+              <div class="tab-div font-weight-bold" id="tab-div">
+                <input
+                  type="text"
+                  placeholder="from"
+                  class="form-control py-3 px-4"
+                />
+                <i class="fa-solid fa-right-left my-auto"></i>
+                <input
+                  type="text"
+                  placeholder="to"
+                  class="form-control py-3 px-4"
+                />
+              </div>
+              <div class="tab-div">
+                <input
+                  type="text"
+                  placeholder="01 novembar 2024"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="10 november 2024"
+                  class="form-control"
+                />
+              </div>
+
+              <div class="tab-div">
+                <input
+                  type="text"
+                  placeholder="01 travelers"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="10 travelers"
+                  class="form-control"
+                />
+              </div>
+              <button class="form-control bg-success text-white py-2">
+                search
+              </button>
+            </form>
+          </div>
+
+          <div class="tab-pane fade px-2" id="multi-city">
+            <div class="tab-div font-weight-bold my-2" id="tab-div">
+              <input
+                type="text"
+                placeholder="from"
+                class="form-control py-3 px-4"
+              />
+              <i class="fa-solid fa-right-left my-auto"></i>
+              <input
+                type="text"
+                placeholder="to"
+                class="form-control py-3 px-4"
+              />
+            </div>
+            <input
+              type="text"
+              placeholder="nov 01 2024"
+              class="form-control py-2 my-2"
+            />
+            <div class="tab-div font-weight-bold my-2" id="tab-div">
+              <input
+                type="text"
+                placeholder="from"
+                class="form-control py-3 px-4"
+              />
+              <i class="fa-solid fa-right-left my-auto"></i>
+              <input
+                type="text"
+                placeholder="to"
+                class="form-control py-3 px-4"
+              />
+            </div>
+            <input
+              type="text"
+              placeholder="nov 04 2024"
+              class="form-control py-2 my-2"
+            />
+            <div class="tab-div my-2">
+              <input type="text" placeholder="travelers" class="form-control" />
+              <input type="text" placeholder="Economys" class="form-control" />
+            </div>
+            <button class="form-control bg-success text-white py-2">
+              search
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="hero-section">
+        <div class="hero-content">
+          <form class="form-group container-xlg">
+            <div class="radio-input mb-lg-2 ms-lg-4">
+              <label for="101">
+                <input type="radio" name="way" id="101" />
+                one way
+              </label>
+
+              <label for="102">
+                <input type="radio" name="way" id="102" />
+                round way
+              </label>
+
+              <label for="103">
+                <input type="radio" name="way" id="103" />
+                multi city
+              </label>
+            </div>
+            <div class="main-input">
+              <input
+                type="text"
+                placeholder="Dhaka"
+                class="form-control-inline"
+              />
+              <input
+                type="text"
+                placeholder="coxs bazar"
+                class="form-control-inline"
+              />
+              <input
+                type="text"
+                placeholder="01 November 2024"
+                class="form-control-inline"
+              />
+              <input
+                type="text"
+                placeholder="travelers"
+                class="form-control-inline"
+              />
+              <button class="btn bg-success btn-lg text-white">Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <section id="buy-section text-center">
+        <h1 class="text-center my-2">
+          <span class="text-success"> Buy tickets</span> 3 easy steps
+        </h1>
+        <div class="row mx-auto px-4">
+          <div class="col-lg-4 col-md-4" id="box">
+            <div class="icon bg-light p-3 mb-3">
+              <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+            </div>
+            <div class="buy-text">
+              <h2 class="me-auto mb-0">Search</h2>
+              <p>
+                Choose your origin, destination, journey dates and search for
+                buses
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4" id="box">
+            <div class="icon bg-light p-3 mb-3">
+              <i class="fa-solid fa-hand-point-up fa-2x"></i>
+            </div>
+
+            <div class="buy-text">
+              <h2 class="me-auto mb-0">Select</h2>
+              <p>Select your desired trip and choose your seats</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4" id="box">
+            <div class="icon bg-light p-3 mb-3">
+              <i class="fa-solid fa-mobile-screen-button fa-2x"></i>
+            </div>
+
+            <div class="buy-text">
+              <h2 class="me-auto mb-0">Pay</h2>
+              <p>Pay by bank cards or mobile banking</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-light">
+        <h3 class="text-warning text-center pt-5">
+          Your All-in-One Travel Solution
+        </h3>
+
+        <h2 class="text-success text-center p-3">
+          Discover the Shohoz Experience for Seamless Journeys
+        </h2>
+
+        <div class="row container mx-auto">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon mb-3" id="light-sec-icon">
+              <i class="fa-solid fa-bus-simple"></i>
+            </div>
+            <h3><span class="text-success">Bus</span>Ticket</h3>
+            <p>
+              Skip the queues with Shohoz! Book bus tickets online with access
+              to 100+ operators nationwide. Easily browse routes, compare
+              prices, and secure your seat in just a few clicks. Enjoy
+              hassle-free travel with Shohoz's reliable bus ticketing service.
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="icon mb-3" id="light-sec-icon">
+              <i class="fa-solid fa-plane-up"></i>
+            </div>
+            <h3><span class="text-success">Air</span>Ticket</h3>
+            <p>
+              Fly with ease using Shohoz! Search and book domestic and
+              international flights online. Compare prices, secure the best
+              deals, and enjoy a smooth booking process with Shohoz, your go-to
+              platform for all air travel needs.
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="icon mb-3" id="light-sec-icon">
+              <i class="fa-solid fa-train-tram"></i>
+            </div>
+            <h3><span class="text-success">Train</span>Ticket</h3>
+            <p>
+              Book train tickets effortlessly with Shohoz! Access 100% of
+              Bangladesh Railway's tickets online, check routes and schedules,
+              and secure your seat from the comfort of home. Enjoy a hassle-free
+              booking experience with Shohoz.
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 py-lg-4">
+            <div class="icon mb-3" id="light-sec-icon">
+              <i class="fa-solid fa-ship"></i>
+            </div>
+            <h3><span class="text-success">Launch </span>Ticket</h3>
+            <p>
+              Book launch or ship tickets effortlessly with Shohoz! Explore
+              routes, check availability, and reserve your booking online among
+              a wide range of trusted operators. Enjoy a smooth and convenient
+              booking experience for your waterway journeys
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 py-lg-4">
+            <div class="icon mb-3" id="light-sec-icon">
+              <i class="fa-regular fa-calendar-days"></i>
+            </div>
+            <h3><span class="text-success">Events </span>Ticket</h3>
+            <p>
+              Get event tickets quickly with Shohoz! From concerts to seminars,
+              browse a variety of events and book your tickets online with ease.
+              Skip the long lines, waiting under the heat and enjoy a seamless
+              booking experience for all your event
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 py-lg-4">
+            <div class="icon mb-3" id="light-sec-icon">
+              <i class="fa-solid fa-viruses"></i>
+            </div>
+            <h3><span class="text-success">Park </span>Ticket</h3>
+            <p>
+              Skip the lines and dive into fun with Shohoz! Purchase park
+              tickets online for amusement parks, water parks, and more. Enjoy a
+              smooth booking process and get ready for a day of adventure with
+              Shohoz.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mobile">
+        <div class="row">
+          <div class="col-lg-5 col-md-5">
+            <img
+              src="/app-illustrator.png"
+              alt="app-illustrator"
+              class="img-fluid mx-auto"
+            />
+          </div>
+          <div class="col-lg-7 col-md-7 my-auto">
+            <h1 class="px-3">
+              Get More Out of Shohoz with our
+              <span class="text-success"> mobile app </span>
+            </h1>
+
+            <div class="mabile-ops d-lg-flex px-3">
+              <p>
+                <span
+                  class="border border-rounded-circle text-success bg-white px-1"
+                  >&gt;</span
+                >
+                Faster and easier booking
+              </p>
+
+              <p class="ms-lg-3">
+                <span
+                  class="border border-rounded-circle text-success bg-white px-1"
+                  >&gt;</span
+                >
+                Get train alerts before every departure
+              </p>
+            </div>
+
+            <div class="mabile-ops d-lg-flex px-3">
+              <p>
+                <span
+                  class="border border-rounded-circle text-success bg-white px-1"
+                  >&gt;</span
+                >
+                Easy access to your tickets
+              </p>
+
+              <p class="ms-lg-3">
+                <span
+                  class="border border-rounded-circle text-success bg-white px-1"
+                  >&gt;</span
+                >
+                Onboard train with digital tickets
+              </p>
+            </div>
+
+            <div class="mobile-img mt-3 px-3">
+              <img
+                src="/google-play-store.png"
+                alt="google-play-store"
+                class="img-fluid"
+              />
+              <img
+                src="/apple-app-store.png"
+                alt="apple-app-store"
+                class="img-fluid ms-2"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="men-mobile bg-light py-5">
+        <div class="row" id="demo">
+          <div class="col-lg-1 col-md-0"></div>
+          <div class="col-lg-5 col-md-12 my-auto px-lg-5">
+            <h1 class="px-3 px-lg-0 px-3">
+              All your <span class="text-success">travel options</span> in one
+              place
+            </h1>
+
+            <p class="px-3">
+              More than 1,000 trusted travel partners across trains, buses,
+              flights, and launch, so that you can focus on the journey.
+            </p>
+
+            <div class="number">
+              <div>
+                <p>250 million+</p>
+              </div>
+
+              <div>
+                <p>3000+</p>
+              </div>
+
+              <div>
+                <p>10million+</p>
+              </div>
+            </div>
+
+            <div class="c-number">
+              <span>Tickets Sold</span>
+              <span>Routes </span>
+              <span>Happy Users</span>
+            </div>
+          </div>
+          <div class="col-lg-1 col-md-0"></div>
+          <div class="col-lg-5 col-md-12 text-center">
+            <img
+              src="travel-option.png"
+              alt="hero-illustration"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="liner">
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-4 p-lg-5" id="liner-1">
+            <h1>Got Questions ? We’ve Got Answers</h1>
+
+            <p class="p-lg-0 p-3">
+              We are always happy to hear from you. If you have any questions,
+              suggestions or opinions, please do not hesitate to reach out to
+              us.
+            </p>
+
+            <button class="btn btn-lg bg-white m-lg-0 m-3">Contact Us</button>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-6 my-auto px-lg-4">
+            <ol>
+              <li>
+                <p>Can I get air tickets on Shohoz?</p>
+                <i class="fa-solid fa-plus"></i>
+              </li>
+              <div></div>
+              <li>
+                <p>Is there any time frame to buy a ticket?</p>
+                <i class="fa-solid fa-plus"></i>
+              </li>
+              <div></div>
+              <li>
+                <p>How do I pay for my air tickets?</p>
+                <i class="fa-solid fa-plus"></i>
+              </li>
+              <div></div>
+              <li>
+                <p>Can I make changes to my booking?</p>
+                <i class="fa-solid fa-plus"></i>
+              </li>
+              <div></div>
+              <li>
+                <p>What happens if my flight is delayed or canceled?</p>
+                <i class="fa-solid fa-plus"></i>
+              </li>
+              <div></div>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <div class="text-center my-4">
+        <img src="/iata-logo.png" alt="iata-logo" class="img-fluid" />
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-lg container-md">
+        <div class="row">
+          <div class="col-lg-5 col-md-4">
+            <img src="/white-logo.png" alt="white-logo" class="img-fluid" />
+            <div class="foot-text my-lg-3 my-3">
+              <p>
+                Shohoz, owned and operated by Shohoj Limited, is Bangladesh’s
+                largest online ticket destination, which is committed to making
+                your life convenient, easier and smarter.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-7 col-md-8">
+            <div class="foot-list">
+              <ul>
+                <p>Quick Links</p>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Deals & Offers</li>
+                <li>Blog</li>
+              </ul>
+
+              <ul>
+                <p>Services</p>
+                <li>Bus Tickets</li>
+                <li>Air Tickets</li>
+                <li>Train Tickets</li>
+                <li>Launch Tickets</li>
+                <li>Event Tickets</li>
+                <li>Park Tickets</li>
+              </ul>
+
+              <ul>
+                <p>Information</p>
+                <li>Privacy Policy</li>
+                <li>Term & Condition</li>
+                <img src="/iata-footer.png" alt="iata-footer" />
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-5 col-md-7 col-8">
+            <div class="foot-copy">
+              <span> Copyright © 2015-2024 Shohoz · All Rights Reserved </span>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-5 col-4">
+            <div class="foot-icon">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,250 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: border-box;
+  font-family: Libre Franklin;
+}
+
+.navbar {
+  height: 80px;
+  width: 100vw;
+  color: white;
+  background-color: white;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-brand img {
+  height: 30px;
+  width: 120px;
+}
+
+.navbar-nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  height: 60%;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.border,
+.bordered {
+  border-radius: 8px;
+}
+
+.bordered:hover {
+  border: 1px solid rgb(1, 101, 44);
+  color: rgb(1, 101, 44);
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+.nav-button {
+  margin-left: auto;
+  padding: 1px 10px;
+  border-radius: 30px;
+  margin-top: 5px;
+}
+
+.row .col-lg-6 form {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+
+form {
+  padding: 10px 40px;
+}
+
+.form-group-1,
+.form-group-2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+#form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.form-label {
+  color: rgb(63, 63, 63);
+  font-weight: 700;
+}
+
+.banner {
+  height: 100%;
+  background-image: url("/BDRAILWAY_TICKET66d3b68a83b1c4cc05aa5b8d1ab3b7ec.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.banner-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.banner-item {
+  margin: 40px 30px 80px 0px;
+  padding: 5px 20px;
+}
+
+.banner-slogan {
+  width: 60%;
+  margin-left: auto;
+}
+
+.banner-payment-method {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+}
+
+#pay-option img {
+  height: 20px;
+  width: auto;
+}
+
+.banner-content span {
+  color: rgb(1, 101, 44);
+  font-weight: 700;
+}
+
+#box {
+  width: 60%;
+}
+
+.tickets {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ticket-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2px 0px;
+}
+
+.tickets h2 {
+  font-size: 27px;
+  font-weight: 700;
+  color: rgb(2, 54, 35);
+}
+
+.ticket-text p {
+  font-size: 16px;
+  color: rgb(2, 54, 35);
+}
+
+.ticket-img {
+  display: flex;
+  justify-content: center;
+}
+
+.money-transaction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 0px 20px;
+}
+
+.money-transaction div {
+  width: 60px;
+  margin: 0px 10px;
+}
+
+.note {
+  text-align: center;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  padding: 40px 0px;
+}
+
+footer {
+  border-top: 3px solid #079d49;
+  background-color: #f6f9ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.foot-text a {
+  list-style-type: none;
+  color: #079d49;
+  text-decoration: none;
+}
+
+.foot-text a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-nav {
+    height: 100vh;
+    width: 40vw;
+    background-color: white;
+    float: right;
+  }
+
+  .nav-item {
+    height: 40px;
+    width: 100px;
+  }
+
+  .form-group-1,
+  .form-group-2 {
+    display: block;
+  }
+
+  #form-box {
+    display: block;
+    padding: 10px 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .foot-text {
+    margin: 20px 0px;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
